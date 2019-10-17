@@ -9,7 +9,7 @@ def create_project_hash
   projects = {}
 
   kickstarter.css("li.project.grid_4").each(){|project|
-    title = project.css("h2.bbcard")
+    title = project.css("h2.bbcard_name")
   }
 end
 
