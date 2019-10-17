@@ -8,7 +8,7 @@ def create_project_hash
 
   projects = {}
 
-  kickstarter.css
+  kickstarter.css("li projec")
 end
 
 create_project_hash
